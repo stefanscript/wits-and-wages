@@ -6,8 +6,8 @@
 - "Start" button
 - "Rules" button
 
-## Question Page
+## QuestionView Page
 - show the question 
 - show a countdown (nothing happens at the end)
 - "Reveal Answer"  button
-- "Next Question" button
+- "Next QuestionView" button

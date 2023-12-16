@@ -25,3 +25,15 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+h1 {
+  @apply text-5xl mb-8;
+}
+
+h2 {
+  @apply text-2xl mb-4;
+}
+
+input {
+  @apply leading-5 px-8 py-4;
+}
