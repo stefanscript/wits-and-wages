@@ -1,8 +1,7 @@
 import {getQuestion} from "@/app/questions";
 import QuestionView from "@/app/components/QuestionView";
 
-export default async function StartPage() {
-    // const numberOfQuestions = sessionStorage.getItem("qs") ?? 7;
+export default async function QuestionPage() {
     const question = await getQuestion();
 
     return (

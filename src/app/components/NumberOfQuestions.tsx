@@ -1,21 +1,29 @@
 "use client";
-import React, {useState} from "react";
+import React, {useEffect, useState} from "react";
+import {TOTAL_QUESTIONS_DONE_KEY, TOTAL_QUESTIONS_KEY} from "@/app/constants";
 
-const NumberOfQuestions:React.FC = () => {
-    const [questions, setQuestions] = useState(7);
+const NumberOfQuestions: React.FC = () => {
+    const [numberOfQuestions, setNumberOfNumberOfQuestions] = useState(7);
+
+
+    useEffect(() => {
+        sessionStorage.setItem(TOTAL_QUESTIONS_KEY, "7");
+        sessionStorage.setItem(TOTAL_QUESTIONS_DONE_KEY, "0");
+    }, [])
 
     function onChange(e: React.ChangeEvent<HTMLInputElement>) {
         const value = Number(e.target.value)
         if (!isNaN(value)) {
-            setQuestions(value);
-            sessionStorage.setItem("qs", String(value));
+            setNumberOfNumberOfQuestions(value);
+            sessionStorage.setItem(TOTAL_QUESTIONS_KEY, String(value));
         }
     }
 
     return (
         <>
             <h2>Let start! How many questions?</h2>
-            <input className={"w-32"} name={"questions"} type={"number"} value={questions} onChange={onChange}/>
+            <input className={"w-32"} name={"numberOfQuestions"} type={"number"} value={numberOfQuestions}
+                   onChange={onChange}/>
         </>
     )
 }
