@@ -6,21 +6,26 @@ let questions: Array<Question> = [];
 // to keep shuffled indexes
 let questionsIndexesShuffled: Array<number> = [];
 
-export async function getQuestion(questionIndex: number): Promise<any> {
-    if(questionsIndexesShuffled.length > 0 && questions.length > 0 && questionsIndexesShuffled.length === questions.length) {
-        return getQuestionAtIndex(questionIndex);
+export async function getQuestion(): Promise<any> {
+    if (questionsIndexesShuffled.length > 0 && questions.length > 0) {
+        // console.log("cache", questionsIndexesShuffled);
+        return getTopQuestionAndRemove();
     }
 
     //populate questions in memory
     questions = await getAllQuestionsAndAnswers();
     // create a separate array with shuffled questions indexes
     questionsIndexesShuffled = shuffle(new Array(questions.length).fill(0).map((x, i) => i));
+    // console.log("new", questionsIndexesShuffled);
 
-    return getQuestionAtIndex(questionIndex);
+    return getTopQuestionAndRemove();
 }
 
-function getQuestionAtIndex(questionIndex: number) {
-    const questionIndexShuffled = questionsIndexesShuffled[questionIndex];
+function getTopQuestionAndRemove() {
+    const questionIndexShuffled = questionsIndexesShuffled.shift();
+    if (typeof questionIndexShuffled === "undefined") {
+        throw new Error("no index")
+    }
     return {questionText: questions[questionIndexShuffled].question, answer: questions[questionIndexShuffled].answer};
 }
 
