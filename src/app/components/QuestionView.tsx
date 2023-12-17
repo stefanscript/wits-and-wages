@@ -3,6 +3,8 @@ import {useEffect, useRef, useState} from "react";
 import {useRouter} from "next/navigation";
 import Link from "next/link";
 import {TOTAL_QUESTIONS_KEY} from "@/app/constants";
+import LinkButton from "@/app/components/LinkButton";
+import Button from "@/app/components/Button";
 
 interface Props {
     question: {
@@ -26,10 +28,10 @@ export default function QuestionView({question, questionNo}: Props) {
     return (
         <>
             <h1>{question.questionText} {questionNo}/{totalQuestionsPerGame.current}</h1>
-            {showAnswer && <h2>{question.answer}</h2>}
-            <button onClick={() => setShowAnswer(prev => !prev)}>Show Answer</button>
-            {showNext && <button onClick={onNextQuestion}>Next</button>}
-            <Link href={"/"}>Back to Start</Link>
+            <h2>{" "}{showAnswer && question.answer}</h2>
+            <Button onClick={() => setShowAnswer(prev => !prev)} title={"Show Answer"} />
+            {showNext && <Button onClick={onNextQuestion} title={"Next"} /> }
+            <LinkButton path={"/"} title={"Back to Start"} subtitle={""} />
         </>
     );
 }

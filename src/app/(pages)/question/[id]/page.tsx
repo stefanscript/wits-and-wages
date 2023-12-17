@@ -3,7 +3,7 @@ import QuestionView from "@/app/components/QuestionView";
 
 export default async function QuestionPage({params}: {params: {id: string}}) {
     const questionNo = Number(params.id);
-    const question = await getQuestion(questionNo);
+    const question = await getQuestion();
 
     return (
         <QuestionView question={question} questionNo={questionNo}/>
