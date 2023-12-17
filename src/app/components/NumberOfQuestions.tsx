@@ -1,6 +1,6 @@
 "use client";
 import React, {useEffect, useState} from "react";
-import {TOTAL_QUESTIONS_DONE_KEY, TOTAL_QUESTIONS_KEY} from "@/app/constants";
+import {TOTAL_QUESTIONS_KEY} from "@/app/constants";
 
 const NumberOfQuestions: React.FC = () => {
     const [numberOfQuestions, setNumberOfNumberOfQuestions] = useState(7);
@@ -8,7 +8,6 @@ const NumberOfQuestions: React.FC = () => {
 
     useEffect(() => {
         sessionStorage.setItem(TOTAL_QUESTIONS_KEY, "7");
-        sessionStorage.setItem(TOTAL_QUESTIONS_DONE_KEY, "0");
     }, [])
 
     function onChange(e: React.ChangeEvent<HTMLInputElement>) {
