@@ -37,3 +37,7 @@ h2 {
 input {
   @apply leading-5 px-8 py-4;
 }
+
+p {
+  @apply mb-10;
+}

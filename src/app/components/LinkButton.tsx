@@ -4,20 +4,19 @@ interface Props {
     path: string;
     title: string;
     subtitle: string;
+    type: "primary" | "outline"
 }
-export default function LinkButton({path, title, subtitle}: Props) {
+
+export default function LinkButton({path, title, subtitle, type}: Props) {
     return (
         <Link
             href={`${path}`}
-            className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+            className={`${type === "primary" ? "text-white bg-green-500 border-green-900" : "bg-white text-green-700 border-gray-500"} shadow-sm shadow-gray-950 rounded-lg border px-5 py-4 mx-2 transition-colors hover:drop-shadow-md`}
         >
-            <h2 className={`mb-3 text-2xl font-semibold`}>
-                {title}{' '}
-                <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
+            <span className={`mb-3 text-xl font-semibold`}>
+                {title}
             </span>
-            </h2>
-            <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
+            <p className={`m-0 max-w-[30ch] text-sm opacity-80`}>
                 {subtitle}
             </p>
         </Link>

@@ -16,8 +16,8 @@ export default function Home() {
 
 
       <div className="mb-32 flex text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:text-left">
-        <LinkButton path={"/rules"} title={"Rules"} subtitle={"Learn the rules"} />
-        <LinkButton path={"question/1"} title={"Start"} subtitle={"Start the game"} />
+        <LinkButton path={"/rules"} title={"Rules"} subtitle={"Learn the rules"} type={"primary"}/>
+        <LinkButton path={"question/1"} title={"Start"} subtitle={"Start the game"} type={"primary"}/>
       </div>
     </>
   )

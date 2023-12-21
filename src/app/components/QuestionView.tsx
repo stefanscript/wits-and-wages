@@ -13,6 +13,7 @@ interface Props {
     };
     questionNo: number
 }
+
 export default function QuestionView({question, questionNo}: Props) {
     const [showAnswer, setShowAnswer] = useState(false);
     const router = useRouter();
@@ -21,17 +22,20 @@ export default function QuestionView({question, questionNo}: Props) {
 
     const showNext = totalQuestionsPerGame.current - questionNo > 0;
 
-    function onNextQuestion(){
+    function onNextQuestion() {
         router.push(`/question/${questionNo + 1}`);
     }
 
     return (
-        <>
-            <h1>{question.questionText} {questionNo}/{totalQuestionsPerGame.current}</h1>
-            <h2>{" "}{showAnswer && question.answer}</h2>
-            <Button onClick={() => setShowAnswer(prev => !prev)} title={"Show Answer"} />
-            {showNext && <Button onClick={onNextQuestion} title={"Next"} /> }
-            <LinkButton path={"/"} title={"Back to Start"} subtitle={""} />
-        </>
+        <div className={"flex flex-col items-center justify-center gap-2"}>
+            <h1>{question.questionText}</h1>
+            <p className={"text-gray-400 mb-10"}>{questionNo}/{totalQuestionsPerGame.current}</p>
+            <h2 className={`${showAnswer ? "opacity-1" : "opacity-0"} mb-10`}>{question.answer}</h2>
+            <div className={"flex flex-row justify-between mb-20"}>
+                <Button onClick={() => setShowAnswer(prev => !prev)} title={"Show Answer"} type={"primary"} />
+                {showNext && <Button onClick={onNextQuestion} title={"Next"} type={"outline"}/>}
+            </div>
+            <LinkButton path={"/"} title={"Back to Start"} subtitle={""} type={"outline"}/>
+        </div>
     );
 }

@@ -10,11 +10,9 @@ How many feet are in a mile?,5280
 How many liters are in a gallon?,4
 In what year did the Berlin Wall fall?,1989
 How many chromosomes do humans have?,46
-What is the speed of sound in air at sea level?,343
 How many degrees are in a circle?,360
 How many teeth does an adult human have?,32
 In what year did Columbus reach the Americas?,1492
-How many sides does a triangle have?,3
 How many Earths could fit inside the sun?,1300000
 How many bones are in the adult human body?,206
 In what year did the Apollo 11 mission land on the moon?,1969
@@ -65,3 +63,88 @@ How many feet are in a yard?,3
 How many protons are in a uranium atom?,92
 How many sides does a pentagon have?,5
 In what year did the first modern Olympic Games take place?,1896
+What is the boiling point of nitrogen at atmospheric pressure (in Kelvin)?,77.36
+What is the absolute zero temperature in Celsius?,-273.15
+What is the speed of sound in air at 20 degrees Celsius (in meters per second)?,343
+What is the molar mass of one mole of carbon-12 (in grams per mole)?,12.011
+What is the standard electrode potential for the reduction of oxygen to water (in volts)?,1.23
+What is the coordination number of an atom in a body-centered cubic (BCC) crystal lattice?,8
+What is the enthalpy change for the combustion of methane (in kilojoules per mole)?,-890.3
+What is the pH of a 0.001 M hydrochloric acid solution?,3
+What is the Avogadro's number for molecules (molecules per mole)?,6.02214076e23
+What is the ionization energy of helium (in electron volts)?,24.587
+What is the oxidation state of chlorine in perchlorate (ClO4-) ion?,+7
+What is the heat of fusion for water (in joules per gram)?,334
+What is the time complexity of the quicksort algorithm (in big O notation)?,O(n log n)
+What is the Shannon entropy of a fair six-sided die (in bits)?,2.58496
+What is the maximum number of IP addresses in an IPv6 subnet?,2^64
+What is the minimum number of bits required to represent 1024 unique values?,10
+What was the estimated population of the Roman Empire at its height (in millions)?,50 to 90 million
+In what year did the Battle of Cannae take place during the Second Punic War?,216 BCE
+How many articles are there in the United States Constitution?,7
+During the Cuban Missile Crisis, how many days did the standoff between the U.S. and the Soviet Union last?,13
+What percentage of the world's population is estimated to have been killed during the Black Death in the 14th century?,25% to 60%
+How many voyages did Christopher Columbus make to the Americas?,4
+What was the estimated global death toll of World War II (in millions)?,70 to 85 million
+In what year did the Great Fire of London occur?,1666
+How many articles were there in the Treaty of Versailles that officially ended World War I?,440
+What is the approximate length of the Great Wall of China (in kilometers)?,21,196
+In what year did the construction of the Taj Mahal begin?,1632
+How many days did the Siege of Leningrad last during World War II?,872
+What was the total number of casualties (killed, wounded, missing) during the Battle of Gettysburg in the American Civil War?,46,000 to 51,000
+What year did the Spanish Armada attempt to invade England?,1588
+How many years did the Hundred Years' War between England and France actually last?,116 years (1337 to 1453)
+What was the population of the world in the year 1 CE (estimated)?,170 million
+In what year did the Berlin Airlift take place during the Cold War?,1948
+How many years did Nelson Mandela spend in prison before his release in 1990?,27
+What is the number of electoral votes needed to win the U.S. presidential election?,270
+How many days did the Cuban Revolution last (from the landing of the Granma to the capture of Havana)?,2 years and 5 months
+What was the length of the Silk Road (in kilometers)?,Over 6,400
+In what year did the Battle of Marathon take place during the Greco-Persian Wars?,490 BCE
+How many people were estimated to have died during the Spanish Flu pandemic (1918-1919)?,50 million
+What is the estimated number of Jews killed during the Holocaust?,6 million
+How many ships were in the Spanish Armada during its attempted invasion of England?,130
+What is the number of states that initially formed the Confederate States of America during the American Civil War?,11
+What is the approximate number of people who died during the Cultural Revolution in China (1966-1976)?,1.5 million to 2 million
+How many years did the Vietnam War last?,19 years (1955 to 1975)
+What is the number of amendments in the current U.S. Constitution (as of the last update)?,27
+What is the speed of light in a vacuum (in meters per second)?,299,792,458
+How many bones are in the adult human body?,206
+What is the melting point of tungsten (in degrees Celsius)?,3,422
+In what year did the Apollo 11 mission successfully land on the moon?,1969
+What is the diameter of Earth (in kilometers)?,12,742
+How many chromosomes are found in a human cell (excluding gametes)?,46
+What is the average distance from the Earth to the Sun (in kilometers)?,149,597,870.7
+How many liters of blood does the average adult human body contain?,Approximately 5 to 6
+What is the maximum number of electrons that can occupy an atomic d orbital?,10
+In what year did the Industrial Revolution begin in England?,1760
+How many elements are there in the periodic table (as of the last update)?,118
+What is the current estimated age of the universe (in years)?,13.8 billion
+How many total cards are there in a standard deck of playing cards?,52
+What is the temperature of absolute zero (in Kelvin)?,0
+How many vertebrae are in the human spine?,33 (including 7 cervical, 12 thoracic, 5 lumbar, 5 sacral, and 4 coccygeal)
+What is the approximate length of the Nile River (in kilometers)?,6,650
+In what year did the Chernobyl nuclear disaster occur?,1986
+How many taste buds does the average human tongue have?,Approximately 2,000 to 8,000
+What is the speed of sound in air at sea level (in meters per second)?,343
+What is the current estimate for the number of known galaxies in the observable universe?,Over 100 billion
+What is the wavelength range of ultraviolet (UV) light (in nanometers)?,10 to 400
+How many neurons are estimated to be in the human brain?,Approximately 86 billion
+What is the speed of the fastest land animal, the cheetah (in kilometers per hour)?,112
+In what year did the Gutenberg Bible, the first major book printed using mass-produced movable metal type, appear?,1455
+How many protons are there in a carbon-12 atom?,6
+What is the atomic mass of helium (in atomic mass units)?,4.0026
+How many moons does Jupiter, the largest planet in our solar system, have?,79
+What is the boiling point of water at standard atmospheric pressure (in degrees Celsius)?,100
+In what year did the Battle of Hastings, a key event in English history, take place?,1066
+How many total symphonies did Ludwig van Beethoven compose?,9
+What is the volume of a cube with a side length of 10 centimeters (in cubic centimeters)?,1,000
+How many bones are in the human skull?,22
+What is the length of the Amazon River (in kilometers)?,6,400
+How many keys are on a standard piano?,88
+What is the maximum capacity of a standard Dual-Layer DVD (in gigabytes)?,8.5
+In what year did the Wright brothers make their first powered, controlled, and sustained airplane flight?,1903
+How many chromosomes do dogs have in their somatic cells?,78
+What is the average distance between stars in our Milky Way galaxy (in light-years)?,4.24
+How many quarts are in a gallon (in the United States)?,4
+What is the speed of the slowest mammal, the three-toed sloth (in meters per hour)?,0.03
