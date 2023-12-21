@@ -1,8 +1,8 @@
 export class Question {
     question: string;
-    answer: number;
+    answer: string;
 
-    constructor(question:string, answer: number) {
+    constructor(question:string, answer: string) {
         this.question = question;
         this.answer = answer;
     }

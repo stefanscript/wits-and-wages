@@ -27,7 +27,7 @@ body {
 }
 
 h1 {
-  @apply text-5xl mb-8;
+  @apply text-3xl mb-8;
 }
 
 h2 {

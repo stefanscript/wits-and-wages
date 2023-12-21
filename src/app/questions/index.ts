@@ -38,7 +38,7 @@ async function getAllQuestionsAndAnswers(): Promise<Question[]> {
                 const lines = data.split("\n");
                 const result = lines.map(line => {
                     const [question, answer] = line.split(",");
-                    return new Question(question, Number(answer));
+                    return new Question(question, answer);
                 })
                 res(result);
             }

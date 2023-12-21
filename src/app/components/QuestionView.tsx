@@ -28,7 +28,7 @@ export default function QuestionView({question, questionNo}: Props) {
 
     return (
         <div className={"flex flex-col items-center justify-center gap-2"}>
-            <h1>{question.questionText}</h1>
+            <h1 className={"h-32"}>{question.questionText}</h1>
             <p className={"text-gray-400 mb-10"}>{questionNo}/{totalQuestionsPerGame.current}</p>
             <h2 className={`${showAnswer ? "opacity-1" : "opacity-0"} mb-10`}>{question.answer}</h2>
             <div className={"flex flex-row justify-between mb-20"}>
