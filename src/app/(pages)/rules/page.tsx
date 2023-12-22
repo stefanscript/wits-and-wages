@@ -39,7 +39,7 @@ export default function RulesPage() {
             The first player or team to reach a predetermined score (e.g., 15 points) wins the game.</p>
 
             <h2>Tips:</h2>
-            <p>Use strategy when placing bets; it's not just about knowing the answer.<br />
+            <p>Use strategy when placing bets; it&rsquo;s not just about knowing the answer.<br />
             Pay attention to how others are betting to inform your own choices.<br />
             Enjoy the game and have fun with the creative and surprising answers.<br />
             &quot;Wits &amp; Wagers&quot; is a game that encourages both knowledge and clever betting, making it accessible and entertaining for players of all ages.
