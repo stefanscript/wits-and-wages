@@ -44,9 +44,6 @@ export default function RulesPage() {
             Enjoy the game and have fun with the creative and surprising answers.<br />
             &quot;Wits &amp; Wagers&quot; is a game that encourages both knowledge and clever betting, making it accessible and entertaining for players of all ages.
             </p>
-            <div>
-                <LinkButton path={"/"} title={"Back to Start"} subtitle={""} type={"primary"} />
-            </div>
         </div>
     )
 }

@@ -35,7 +35,6 @@ export default function QuestionView({question, questionNo}: Props) {
                 <Button onClick={() => setShowAnswer(prev => !prev)} title={"Show Answer"} type={"primary"} />
                 {showNext && <Button onClick={onNextQuestion} title={"Next"} type={"outline"}/>}
             </div>
-            <LinkButton path={"/"} title={"Back to Start"} subtitle={""} type={"outline"}/>
         </div>
     );
 }
